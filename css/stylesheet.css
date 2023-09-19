@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+background-color:lightpink;
+color:ivory;
+max-width: 1200px;
+text-align: center;
+margin: auto;
+}
+
+#hovergif {
+    width: 100%; 
+    background-color: aqua;
+}
+
+#active {
+   position: absolute;
+    top: 125px; 
+    left: 5px; 
+    z-index: 1;
+    background-color: lightpink;
+    opacity: 0;
+}
+
+#static {
+    position: absolute;
+    z-index:2; 
+    top: 125px;
+    left: 5px; 
+
+}
+#active:hover {
+    opacity: 100;
+}
+
+#static:hover {
+    opacity: 0;
+}
+
+header {
+background-color:mistyrose;
+color:mediumvioletred;
+width: 300px;
+position: fixed;
+top: 25px;
+left: 25px;
+font-family: 'Press Start 2P', cursive;
+text-align: center;
+}
+
+nav {
+    background-color: mistyrose;
+    color:palevioletred;
+    width: 300px;
+    position: fixed;
+    text-align: center;
+    top: 400px;
+    left: 25px;
+}
+
+main{
+    background-color: mistyrose;
+    color:palevioletred;
+    width: 650px;
+    margin-left: 500px;
+}
+
+section{
+    background-color: mistyrose;
+    color:palevioletred;
+    margin-top: 25px;
+    padding: 25px;
+    border: 5px palevioletred solid;
+    text-align: center;
+    width: 650px;
+    margin-left: 500px;
+}
+
+section img{
+    width: 350px; 
+    border: 1px orchid dashed;
+    padding: 10px;
+    width: 600px; 
+}
+
+section video{
+    border: 1px orchid dashed;
+    padding: 10px;
+    width: 600px; 
+    }
+
+footer{
+    background-color: mistyrose;
+    color:palevioletred;
+    width: 300px;
+    position: fixed;
+    text-align: center;
+    bottom: 150px;
+    left: 25px;
+}
+
+#splashgif {
+    text-align: center;
+    margin-top: 25%;
+}
