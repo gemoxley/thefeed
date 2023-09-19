@@ -17,14 +17,14 @@ margin: auto;
    position: absolute;
     top: 125px; 
     left: 5px; 
-    z-index: 1;
+    z-index:2;
     background-color: lightpink;
     opacity: 0;
 }
 
 #static {
     position: absolute;
-    z-index:2; 
+    z-index:1; 
     top: 125px;
     left: 5px; 
 
