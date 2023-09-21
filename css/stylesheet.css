@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
 
 body{
 background-color:lightpink;
@@ -14,18 +14,22 @@ margin: auto;
 
 #active {
    position:fixed;
-    top: 30%; 
-    left: 5%; 
+    top: 25%; 
+    left: 10%; 
     z-index:2;
     background-color: lightpink;
     opacity: 0;
+    margin-bottom: 15%;
+    padding-bottom: 15%;
 }
 
 #static {
     position:fixed;
     z-index:1; 
-    top: 30%;
-    left: 5%; 
+    top: 25%;
+    left: 10%; 
+    margin-bottom: 15%;
+    padding-bottom: 15%;
 
 }
 #active:hover {
@@ -43,8 +47,9 @@ width: 30%;
 position: fixed;
 top: 5%;
 left: 5%;
-font-family: 'Press Start 2P', cursive;
+font-family: 'Fasthand', cursive;
 text-align: center;
+margin-bottom: 10%;
 }
 
 nav {
@@ -55,6 +60,8 @@ nav {
     text-align: center;
     top: 60%;
     left: 5%;
+    margin-bottom: 15%;
+    margin-top: 15%;
 }
 
 main{
@@ -63,11 +70,15 @@ main{
     width: 65%;
     margin-left: 500px;
     text-align: center;
+    background-image: url(../img/wallpaper.jpg);
+    background-repeat:repeat;
 }
 
 section{
     background-color: mistyrose;
-    color:palevioletred;
+    color: palevioletred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
     margin-top: 5%;
     margin-bottom: 5%;
     padding: 5%;
@@ -75,11 +86,12 @@ section{
     text-align: center;
     width: 75%;
     margin: auto; 
+    margin-bottom: 15%;
 }
 
 section img{
     width: 85%; 
-    border: 1px orchid dashed;
+    border: 1px palevioletred dashed;
     padding: 10px;
     width: 100%; 
     text-align: center;
@@ -87,7 +99,7 @@ section img{
 
 section video{
     width: 85%;
-    border: 1px orchid dashed;
+    border: 1px palevioletred dashed;
     padding: 10px;
     width: 600px; 
     text-align: center;
@@ -104,6 +116,37 @@ footer{
 }
 
 #splashgif {
-    text-align: center;
-    margin-top: 25%;
+    text-align: bottom;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 50%;
+    margin-right: 50%;
 }
+
+a{
+    color:palevioletred;
+  }
+
+  a:hover {
+    color: hotpink;
+  }
+
+  #pigpen {
+    background-color: mistyrose;
+    color:palevioletred;
+    margin-top: 50%;
+    text-align: center;
+    width: 20%;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+
+ #index{
+    background-image: url(../img/wallpaper.jpg);
+    background-repeat:repeat;
+    background-color:lightpink;
+    color:ivory;
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+    }
