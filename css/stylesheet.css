@@ -41,15 +41,15 @@ margin: auto;
 }
 
 header {
-background-color:mistyrose;
-color:mediumvioletred;
-width: 30%;
-position: fixed;
-top: 5%;
-left: 5%;
-font-family: 'Fasthand', cursive;
-text-align: center;
-margin-bottom: 10%;
+    background-color:mistyrose;
+    color:mediumvioletred;
+    width: 30%;
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    font-family: 'Fasthand', cursive;
+    text-align: center;
+    margin-bottom: 10%;
 }
 
 nav {
@@ -136,13 +136,13 @@ a{
   }
 
  #index{
-    background-image: url(../img/wallpaper.jpg);
-    background-repeat:repeat;
-    background-color:lightpink;
-    color:ivory;
-    max-width: 1200px;
-    text-align: center;
-    margin: auto;
+        background-image: url(../img/wallpaper.jpg);
+        background-repeat:repeat;
+        background-color:lightpink;
+        color:ivory;
+        max-width: 1200px;
+        text-align: center;
+        margin: auto;
     }
 
     footer {
