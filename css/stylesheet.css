@@ -30,8 +30,8 @@ margin: auto;
     left: 10%; 
     margin-bottom: 15%;
     padding-bottom: 15%;
-
 }
+
 #active:hover {
     opacity: 100;
 }
@@ -133,7 +133,6 @@ a{
     height: 500px;
     font-family: 'Fasthand', cursive;
     overflow-y: scroll;
-
   }
 
  #index{
